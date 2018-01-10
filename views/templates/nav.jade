@@ -1,0 +1,10 @@
+div(class=['ui','pointing','menu'])
+   a(class=['active','item'] href='http://localhost:3000/')= 'Inicio'
+   a(class='item' href='http://localhost:3000/nuevo')= 'Nuevo producto'
+   a(class='item' href='http://localhost:3000/productos')= 'Ver productos'
+ 
+   div(class=['right', 'menu'])
+     div(class='item')
+       div(class=['ui', 'transparent', 'icon', 'input'])
+         input(type='text' placeholder='Search...')
+         i(class=['search','link','icon'])
